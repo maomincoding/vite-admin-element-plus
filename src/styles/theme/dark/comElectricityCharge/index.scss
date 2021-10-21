@@ -1,0 +1,43 @@
+#app {
+  .comElectricityCharge {
+    .top-tit {
+      color: #d0d0d0;
+    }
+
+    .dashboard-top li .top-date-name {
+      color: #fff;
+    }
+
+    .dashboard-center .list-inner > li > p:nth-child(2),
+    .dashboard-center .list-inner > li > p:nth-child(3) {
+      color: #fff;
+    }
+
+    .dashboard-center .list-header > li,
+    .dashboard-center .list-inner > li > p {
+      border-bottom-color: #444444;
+      border-right-color: #444444;
+    }
+
+    .dashboard-footer .dashboard-footerChart-tit > p {
+      color: #d0d0d0;
+    }
+
+    .dashboard-footer .dashboard-footerChart-tit {
+      border-bottom: 1px solid #444444;
+    }
+    .icon-zhaoming,
+    .icon-dianti,
+    .icon-lujing619,
+    .icon-lengku,
+    .icon-shengchanxianlu,
+    .icon-shuibeng1,
+    .icon-shuibeng,
+    .icon-fengji,
+    .icon-kongtiao,
+    .icon-kongtiaojizu,
+    .icon-lengqueta {
+      color: #a7a7a7;
+    }
+  }
+}

@@ -1,0 +1,174 @@
+.icon-jiantou-shang {
+  color: #f26a4f;
+  font-size: 20px;
+}
+.icon-jiantou-xia {
+  color: #4091c9;
+  font-size: 20px;
+}
+.top-tbv {
+  font-size: 20px;
+  font-weight: 400;
+  color: #f29479;
+}
+.top-hbv {
+  font-size: 20px;
+  font-weight: 400;
+  color: #9dcee2;
+}
+.icon-mr {
+  margin-right: 5px;
+}
+.ranking-energy-box {
+  overflow-y: scroll;
+}
+.ranking-energy,
+.pue-trend {
+  width: 100%;
+  height: 600px;
+}
+.icon-tongji,
+.icon-zhexiantu {
+  cursor: pointer;
+}
+.top-tit {
+  font-weight: 400;
+  font-size: 20px;
+}
+.check-pue-trend {
+  display: flex;
+  justify-content: flex-end;
+}
+.dashboard-top {
+  display: flex;
+  justify-content: space-between;
+  .top-thbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & > div > p {
+      display: flex;
+      align-items: center;
+      margin: 5px 0;
+    }
+    .top-timedate {
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+      margin: 4px 0 0 12px;
+    }
+    .icon-m {
+      margin-left: 5px;
+    }
+  }
+  li {
+    width: 24%;
+    height: 122px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'PuHuiTi';
+  }
+}
+.dashboard-center {
+  display: flex;
+  font-family: 'PuHuiTi';
+  .list-header {
+    width: 140px;
+    text-align: center;
+    color: #999999;
+    font-size: 16px;
+    & > li {
+      border-bottom: 1px solid #f8f8f8;
+      border-right: 1px solid #f8f8f8;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    & > li:last-child {
+      border-bottom: 0;
+    }
+    & > li:nth-child(1),
+    & > li:nth-child(4),
+    & > li:nth-child(5) {
+      height: 90px;
+    }
+    & > li:nth-child(2),
+    & > li:nth-child(3) {
+      height: 52px;
+    }
+    & > li:nth-child(3),
+    & > li:nth-child(4),
+    & > li:nth-child(5) {
+      line-height: 24px;
+    }
+  }
+  .list-inner {
+    overflow-x: auto;
+    display: flex;
+    width: 1600px;
+    & > li {
+      width: 160px;
+      flex-shrink: 0;
+      text-align: center;
+      & > p {
+        border-bottom: 1px solid #f8f8f8;
+        border-right: 1px solid #f8f8f8;
+        box-sizing: border-box;
+      }
+      & > p:last-child {
+        border-bottom: 0;
+      }
+      & > p:nth-child(1) span {
+        font-size: 52px;
+        color: #4091c9;
+      }
+
+      & > p:nth-child(1),
+      & > p:nth-child(4),
+      & > p:nth-child(5) {
+        height: 90px;
+        line-height: 90px;
+      }
+
+      & > p:nth-child(2),
+      & > p:nth-child(3) {
+        height: 52px;
+        line-height: 52px;
+        color: #333333;
+      }
+    }
+  }
+}
+.dashboard-footer {
+  display: flex;
+  justify-content: space-between;
+  .dashboard-footerChart-tit {
+    padding: 0 30px;
+    height: 50px;
+    border-bottom: 1px solid #eaeaea;
+    font-family: 'PuHuiTi';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & > p {
+      color: #333333;
+    }
+    & > span {
+      font-size: 26px;
+      color: #999999;
+    }
+  }
+  & > div {
+    width: 32.5%;
+    height: 335px;
+  }
+  &-item1,
+  &-item2,
+  &-item3 {
+    height: 85%;
+  }
+}

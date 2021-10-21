@@ -1,0 +1,18 @@
+/*LCD数字*/
+@font-face {  
+    font-family: 'NumFont';  
+    src: url('./font/LCDAT&TPhoneTimeDate.ttf');
+    font-weight: normal;  
+    font-style: normal;  
+}
+/*普惠体*/
+@font-face {  
+    font-family: 'PuHuiTi';
+    font-display: swap;
+    src: url('./font/puhuiti/webfont.eot'); /* IE9 */
+    src:url('./font/puhuiti/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./font/puhuiti/webfont.woff2') format('woff2'),
+    url('./font/puhuiti/webfont.woff') format('woff'), /* chrome、firefox */
+    url('./font/puhuiti/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('./font/puhuiti/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
